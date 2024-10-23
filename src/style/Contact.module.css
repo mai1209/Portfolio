@@ -166,7 +166,7 @@ textarea::placeholder {
   height: 250px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .Contact {
     flex-direction: column;
     margin: 5px;
@@ -180,6 +180,7 @@ textarea::placeholder {
 
   .ContactInfo {
     font-size: 15px;
+    margin: 10px;
   }
   .Button {
     font-size: 16px;
@@ -199,11 +200,13 @@ textarea::placeholder {
   }
 
   input {
-    font-size: 10px;
+    font-size: 10px; 
   }
 
   .Input {
     justify-content: space-between;
+    flex-direction: column;
+
   }
 
   textarea {
@@ -212,5 +215,9 @@ textarea::placeholder {
 
   .Button2 {
     font-size: 15px;
+  }
+
+  .Title{
+    padding: 20px 0;
   }
 }

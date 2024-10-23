@@ -6,6 +6,10 @@ import { JackInTheBox } from "react-awesome-reveal";
 function Skill1() {
   return (
     <div className={style.Body}>
+      <video className={style.videoBackground}  autoPlay loop muted playsInline>
+        <source src="../../video3.mp4"></source>
+      </video>
+
       <div className={style.container}>
         <div className={style.link}>
           <a href="">Home</a>
@@ -16,7 +20,6 @@ function Skill1() {
         </div>
 
         <div className={style.info}>
-          <p>Maira Coria</p>
           <img className={style.mai} src="../../mai.jpeg" alt="mai" />
         </div>
       </div>
@@ -66,7 +69,7 @@ function Skill1() {
         <div className={style.skills_row}>
           <div className={style.skills_column}>
             <JackInTheBox>
-              <img src="../../reactNative.png" alt="tecnologia" />
+              <img src="../../react.png" alt="tecnologia" />
             </JackInTheBox>
 
             <p>React.js</p>
@@ -89,10 +92,6 @@ function Skill1() {
             <span> [Beginner ] </span>
           </div>
         </div>
-      </div>
-      <div className={style.triangle}>
-        {" "}
-        <p className={style.about_me}>About Me</p>
       </div>
     </div>
   );
