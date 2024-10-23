@@ -9,7 +9,7 @@
 
 .Body {
   display: flex;
-  background-image: url("../../public/image.png");
+  background-image: url("../../public/Fondo\ About\ Me\ \(1\).png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -187,12 +187,11 @@ textarea::placeholder {
     padding: 15px;
     width: fit-content;
     align-self: center;
+    margin-bottom: 30px;
   }
 
   .Image {
-    align-self: center;
-    width: 180px;
-    height: 180px;
+  display: none;
   }
 
   .FormTitle {
@@ -215,6 +214,7 @@ textarea::placeholder {
 
   .Button2 {
     font-size: 15px;
+
   }
 
   .Title{

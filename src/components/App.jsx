@@ -1,17 +1,16 @@
 import React from "react";
 import Portfolio from "./Portfolio";
-import Skill1 from "./Skill1";
+import Skill2 from "./Skill2";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 
 export default function App() {
   return (
     <>
-      <Skill1></Skill1>
+      <Skill2></Skill2>
       <AboutMe></AboutMe>
-    <Portfolio></Portfolio>
-    <Contact></Contact>
-
+      <Portfolio></Portfolio>
+      <Contact></Contact>
     </>
   );
 }

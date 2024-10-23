@@ -6,7 +6,7 @@ import { JackInTheBox } from "react-awesome-reveal";
 function Skill1() {
   return (
     <div className={style.Body}>
-      <video className={style.videoBackground}  autoPlay loop muted playsInline>
+      <video className={style.videoBackground} autoPlay loop muted playsInline>
         <source src="../../video3.mp4"></source>
       </video>
 
@@ -33,25 +33,28 @@ function Skill1() {
             <JackInTheBox>
               <img src="../../js.png" alt="tecnologia" />
             </JackInTheBox>
-
-            <p>javaScript</p>
-            <span> [ Advanced ] </span>
+            <div className={style.iconInfo}>
+              <p>javaScript</p>
+              <span> [ Advanced ] </span>
+            </div>
           </div>
           <div className={style.skills_column}>
             <JackInTheBox>
               <img src="../../css.png" alt="tecnologia" />
             </JackInTheBox>
-
-            <p>CSS</p>
-            <span> [ Advanced ] </span>
+            <div className={style.iconInfo}>
+              <p>CSS</p>
+              <span> [ Advanced ] </span>
+            </div>
           </div>
           <div className={style.skills_column}>
             <JackInTheBox>
               <img src="../../sass.png" alt="tecnologia" />
             </JackInTheBox>
-
-            <p>Sass</p>
-            <span> [ Advanced ] </span>
+            <div className={style.iconInfo}>
+              <p>Sass</p>
+              <span> [ Advanced ] </span>
+            </div>
           </div>
         </div>
         <div className={style.skills_column}>
@@ -62,34 +65,38 @@ function Skill1() {
               alt="tecnologia"
             />
           </JackInTheBox>
-
-          <p>React Native</p>
-          <span> [ Intermediate ] </span>
+          <div className={style.iconInfo}>
+            <p>React Native</p>
+            <span> [ Intermediate ] </span>
+          </div>
         </div>
         <div className={style.skills_row}>
           <div className={style.skills_column}>
             <JackInTheBox>
               <img src="../../react.png" alt="tecnologia" />
             </JackInTheBox>
-
-            <p>React.js</p>
-            <span> [ Advanced ] </span>
+            <div className={style.iconInfo}>
+              <p>React.js</p>
+              <span> [ Advanced ] </span>
+            </div>
           </div>
           <div className={style.skills_column}>
             <JackInTheBox>
               <img src="../../html.png" alt="tecnologia" />
             </JackInTheBox>
-
-            <p>HTML</p>
-            <span> [ Advanced ] </span>
+            <div className={style.iconInfo}>
+              <p>HTML</p>
+              <span> [ Advanced ] </span>
+            </div>
           </div>
           <div className={style.skills_column}>
             <JackInTheBox>
               <img src="../../next.png" alt="tecnologia" />
             </JackInTheBox>
-
-            <p>Next.js</p>
-            <span> [Beginner ] </span>
+            <div className={style.iconInfo}>
+              <p>Next.js</p>
+              <span> [Beginner ] </span>
+            </div>
           </div>
         </div>
       </div>

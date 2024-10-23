@@ -20,15 +20,14 @@ function Portfolio() {
       <div className={style.glass}>
         <h2 className={style.title}>Portfolio</h2>
 
-        {/* Añadir AnimatePresence para manejar la salida/entrada con animación */}
         <AnimatePresence mode="wait">
-          {/* Aplicar las animaciones con motion.div */}
+
           <motion.div
             key={currentIndex}
-            initial={{ opacity: 0, x: 100 }} // Inicia fuera del viewport (derecha)
-            animate={{ opacity: 1, x: 0 }} // Anima para entrar desde la derecha
-            exit={{ opacity: 0, x: -100 }} // Anima para salir hacia la izquierda
-            transition={{ duration: 0.3 }} // Duración de la animación
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }} 
+            exit={{ opacity: 0, x: -100 }} 
+            transition={{ duration: 0.3 }} 
           >
             {worksComponents[currentIndex]}
           </motion.div>

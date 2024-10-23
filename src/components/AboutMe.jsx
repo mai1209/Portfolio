@@ -4,14 +4,10 @@ import style from "../style/AboutMe.module.css";
 function AboutMe() {
   return (
     <div id="aboutMe" className={style.Body}>
-         <h2 className={style.about}>About Me</h2>
+    
       <div className={style.container}>
      
-        <img
-          className={style.imgPC}
-          src="../../public/iconpc.png"
-          alt="about-img"
-        />
+    
         <div className={style.textContainer}>
           <h2 className={style.title}>
             Know me <span>more</span>
