@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { useForm } from "react-hook-form";
 
 function Contact() {
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit ,reset } = useForm();
   const form = useRef();
 
   const sendEmail = (data) => {
@@ -18,10 +18,12 @@ function Contact() {
       .then(
         (response) => {
           console.log('Correo enviado con éxito', response.text);
+          alert("Correo enviado correctamente");
           reset(); // Resetea el formulario después de enviar
         },
         (error) => {
           console.log('Error al enviar el correo', error.text);
+          alert("Correo No se  envió correctamente");
         },
       );
   };
@@ -51,7 +53,7 @@ function Contact() {
             </div>
             <input id="email" {...register("email", { required: true })} placeholder="Your Email" />
             <textarea rows={5} id="message" {...register("message", { required: true })} placeholder="Your Message"></textarea>
-            <button type="submit" className={style.Button2}>Send Request</button>
+            <button type="submit" className={style.Button2}  >Send Request</button>
           </div>
         </form>
       </div>

@@ -14,7 +14,7 @@
 
 
 .Body {
-  background-image: url("../../public/Fondo\ About\ Me\ \(1\).png");
+  background-image: url("../../Fondo\ About\ Me\ \(1\).png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@
   height: 553px;
 
   color: #fff;
-  background-image: url("../../public/Imagen\ APP.png");
+  background-image: url("../../Imagen\ APP.png");
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(35px);
@@ -58,7 +58,7 @@
     height: 553px;
   
     color: #fff;
-    background-image: url("../../public/container22.png");
+    background-image: url("../../container22.png");
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(35px);
@@ -68,7 +68,7 @@
     height: 553px;
   
     color: #fff;
-    background-image: url("../../public/container3.png");
+    background-image: url("../../container3.png");
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(35px);
@@ -78,7 +78,7 @@
     height: 553px;
   
     color: #fff;
-    background-image: url("../../public/container4.png");
+    background-image: url("../../container4.png");
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(35px);
