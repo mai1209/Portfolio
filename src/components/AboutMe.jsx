@@ -25,7 +25,7 @@ function AboutMe() {
         </div>
        
       </div>
-      <div className={style.backgroundBottom}></div>
+  
     </div>
   );
 }

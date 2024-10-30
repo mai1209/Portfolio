@@ -76,14 +76,14 @@
   }
 
 
-  @media (max-width: 1000px) {
+  @media  (min-width: 501px) and (max-width: 1000px) {
     .title{
       font-size: 40px;
     }
 
     .description{
-      font-size: 14px;
-      width: 300px;
+      font-size: 15px;
+      width: fit-content;
     }
 
     .button{
@@ -91,8 +91,35 @@
     }
 
     .description4 {
-      width: 300px;
+      width: fit-content;
       font-size: 14px;
     
     }
+  }
+
+  
+@media (max-width: 500px) {
+  .title{
+    font-size: 30px;
+  }
+
+  .title4{
+    font-size: 30px;
+  }
+
+  .description{
+    font-size: 13px;
+    width: 200px;
+    
+  }
+
+  .button{
+    font-size: 13px;
+  }
+
+  .description4 {
+    width: 200px;
+    font-size: 13px;
+  
+  }
   }
