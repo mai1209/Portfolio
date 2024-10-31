@@ -6,12 +6,13 @@ import Works3 from "./Works3";
 import Works4 from "./Works4";
 import { motion, AnimatePresence } from "framer-motion";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
+import Works5 from "./Works5";
 
 function Portfolio() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0); // 0: Ninguna, 1: Adelante, -1: Atrás
 
-  const worksComponents = [<Works1 />, <Works2 />, <Works3 />, <Works4 />];
+  const worksComponents = [<Works1 />, <Works2 />, <Works3 />, <Works4 />, <Works5></Works5>];
 
   const handleNext = () => {
     setDirection(1); // Avanzar

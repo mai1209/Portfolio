@@ -57,6 +57,9 @@ function Contact() {
           </div>
         </form>
       </div>
+      <div className={style.footer}>
+      <img  src="../../logo.png"></img>
+      </div>
     </div>
   );
 }

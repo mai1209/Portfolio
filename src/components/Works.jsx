@@ -15,7 +15,7 @@ function Works() {
             features like budget tracking, task management, and a digital
             notebook, offering a complete solution for personal productivity.
           </p>
-          <button className={styles.button}>Visit Project</button>
+          <button   onClick={() => window.open("https://growth-green.vercel.app", "_blank")}    className={styles.button}>Visit Project</button>
         </div>
         
       </div>

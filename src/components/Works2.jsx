@@ -8,14 +8,13 @@ function Works2() {
       <div className={style.gass2}>
         <div className={styles.container}>
           <p className={styles.title}>
-            Made with <span>HTML</span>
+            Made with <span>HTML & CSS</span>
           </p>
           <p className={styles.description}>
-            A simple gym website built entirely with HTML, featuring sections
+            A simple gym website built entirely with HTML and CSS, featuring sections
             like Home, About, Services, a map for location, and a contact form.
-            It's a solid foundation for adding styles and functionality later.
           </p>
-          <button className={styles.button}>Visit Project</button>
+          <button  onClick={() => window.open("https://trabajo4-nucba.vercel.app", "_blank")} className={styles.button}>Visit Project</button>
         </div>
       </div>
     </div>

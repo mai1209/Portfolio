@@ -13,7 +13,7 @@ function Works3() {
           <p className={styles.description}>
           A registration and login page built with JavaScript. It includes form validation, password protection, and basic user authentication. This project lays the groundwork for more advanced features like database integration.
           </p>
-          <button className={styles.button}>Visit Project</button>
+          <button  onClick={() => window.open("https://sesion-ten.vercel.app", "_blank")} className={styles.button}>Visit Project</button>
         </div>
       </div>
     </div>

@@ -13,7 +13,7 @@ function Works4() {
           <p className={styles.description4}>
           This blog was built using Sass to improve the structure and maintainability of the CSS. With Sass, I implemented variables, nesting, and partials to keep the styles organized and efficient.
           </p>
-          <button className={styles.button}>Visit Project</button>
+          <button onClick={() => window.open(" https://blog-con-sass.netlify.app", "_blank")}  className={styles.button}>Visit Project</button>
         </div>
       </div>
     </div>
