@@ -30,9 +30,7 @@ function Portfolio() {
     <div id="portfolio" className={style.Body}>
       <h2 className={style.title}>Portfolio</h2>
       <div className={style.glass}>
-        <button className={style.Btn} onClick={handlePrev}>
-          <MdArrowBackIos />
-        </button>
+       
 
         <AnimatePresence mode="wait">
           <motion.div
@@ -44,11 +42,16 @@ function Portfolio() {
           >
             {worksComponents[currentIndex]}
           </motion.div>
-        </AnimatePresence>
-
-        <button className={style.Btn} onClick={handleNext}>
-          <MdArrowForwardIos  />
+        </AnimatePresence >
+        <div className={style.containerBtn}>
+        <button className={style.Btn} onClick={handlePrev}>
+          <MdArrowBackIos className={style.icon} />
         </button>
+        <button className={style.Btn} onClick={handleNext}>
+          <MdArrowForwardIos className={style.icon}  />
+        </button>
+        </div>
+      
       </div>
     </div>
   );

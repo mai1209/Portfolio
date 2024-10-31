@@ -10,14 +10,14 @@ function Skill2() {
       </video>
       <div className={style.container}>
         <div className={style.link}>
-          <a href="">Home</a>
-          <a href="">Skills</a>
+      
+          <a href="#home">Skills</a>
           <a href="#aboutMe">About Me</a>
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
         </div>
 
-        <div className={style.info}>
+        <div id="home" className={style.info}>
           <img className={style.mai} src="../../mai.jpeg" alt="mai" />
         </div>
 
