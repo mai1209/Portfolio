@@ -7,7 +7,7 @@ function Works() {
       <div className={style.gass2}>
         <div className={styles.container}>
           <p className={styles.title}>
-            Made with <span>React Native</span>
+            Made with <span>ReactJs</span>
           </p>
           <p className={styles.description}>
             A personal project developed with React, focused on finance

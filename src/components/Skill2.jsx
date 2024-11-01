@@ -29,7 +29,7 @@ function Skill2() {
         <div className={style.skills_native}>
           <JackInTheBox>
             <img
-              className={style.native}
+             className={style.Img}
               src="../../react.png"
               alt="tecnologia"
             />
@@ -42,7 +42,7 @@ function Skill2() {
         <div className={style.skills_row}>
           <div className={style.skills_column}>
             <JackInTheBox>
-              <img  className={style.js} src="../../js.png" alt="tecnologia" />
+              <img  className={style.Img} src="../../js.png" alt="tecnologia" />
             </JackInTheBox>
             <div className={style.iconInfo}>
               <p>javaScript</p>
@@ -51,7 +51,7 @@ function Skill2() {
           </div>
           <div className={style.skills_column}>
             <JackInTheBox>
-              <img src="../../css.png" alt="tecnologia" />
+              <img className={style.Img} src="../../css.png" alt="tecnologia" />
             </JackInTheBox>
             <div className={style.iconInfo}>
               <p>CSS</p>
@@ -60,7 +60,7 @@ function Skill2() {
           </div>
           <div className={style.skills_column}>
             <JackInTheBox>
-              <img src="../../sass.png" alt="tecnologia" />
+              <img className={style.Img} src="../../sass.png" alt="tecnologia" />
             </JackInTheBox>
             <div className={style.iconInfo}>
               <p>Sass</p>
@@ -71,7 +71,7 @@ function Skill2() {
         <div className={style.skills_row}>
           <div className={style.skills_column}>
             <JackInTheBox>
-              <img src="../../react.png" alt="tecnologia" />
+              <img className={style.Img} src="../../react.png" alt="tecnologia" />
             </JackInTheBox>
             <div className={style.iconInfo}>
               <p>React.js</p>
@@ -80,7 +80,7 @@ function Skill2() {
           </div>
           <div className={style.skills_column}>
             <JackInTheBox>
-              <img src="../../html.png" alt="tecnologia" />
+              <img className={style.Img} src="../../html.png" alt="tecnologia" />
             </JackInTheBox>
             <div className={style.iconInfo}>
               <p>HTML</p>
@@ -89,7 +89,7 @@ function Skill2() {
           </div>
           <div className={style.skills_column}>
             <JackInTheBox>
-              <img src="../../next.png" alt="tecnologia" />
+              <img className={style.Img} src="../../next.png" alt="tecnologia" />
             </JackInTheBox>
             <div className={style.iconInfo}>
               <p>Next.js</p>
