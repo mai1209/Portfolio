@@ -124,6 +124,9 @@
   width: 300px;
   position: relative;
   overflow: hidden;
+
+  border-radius: 30px;
+  box-shadow: -2px 2px 30px 2px #ffffff49, 2px -2px 30px 2px#ffffff49;
 }
 
 .skills_row {
@@ -140,6 +143,8 @@
   width: 300px;
   position: relative;
   overflow: hidden;
+  border-radius: 30px;
+  box-shadow: -2px 2px 30px 2px #ffffff49, 2px -2px 30px 2px#ffffff49;
 }
 
 .skills_column::before,
