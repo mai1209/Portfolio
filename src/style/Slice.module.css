@@ -1,0 +1,45 @@
+
+
+.Body {
+    background-image: url("../../Fondo\ About\ Me\ \(1\).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 832px;
+  padding: 30px;
+
+  }
+  
+.container{
+    position: relative;
+    top: 0;
+
+}
+
+.buttons{
+    position: absolute;
+
+   
+    top: 0;
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.buttons button{
+    background: none;
+    border: none;
+    padding:2px;
+    cursor: pointer;
+
+}
+
+.icon{
+    color: white;
+    width: 20px ;
+    height: 20px;
+  
+}

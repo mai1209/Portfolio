@@ -13,13 +13,9 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 832px;
-
 }
 
 .glass {
-
-
-
   background: rgba(182, 179, 179, 0.14);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11.1px);
@@ -35,60 +31,51 @@
   text-transform: uppercase;
   padding: 30px;
   letter-spacing: 9px;
-
-
 }
 
 .container {
-  height: 553px;
-
   color: #fff;
   background-image: url("../../Imagen\ APP.png");
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(35px);
-  margin: 30px;
+  padding: 20px;
+
+
 }
 .container2 {
-  height: 553px;
-
   color: #fff;
   background-image: url("../../container22.png");
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(35px);
-  margin: 30px;
+  padding: 20px;
 }
 .container3 {
-  height: 553px;
-
   color: #fff;
   background-image: url("../../container3.png");
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(35px);
-  margin: 30px;
+  padding: 20px;
 }
 .container4 {
-  height: 553px;
 
-  color: #fff;
   background-image: url("../../container4.png");
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(35px);
-  margin: 30px;
+ 
+  margin: 20px;
 }
 
 .container5 {
-  height: 553px;
-
   color: #fff;
   background-image: url("../../To\ Do\ list.png");
   background-size: cover;
   background-position: center;
   backdrop-filter: blur(35px);
-  margin: 30px;
+  padding: 20px;
 }
 
 .gass2 {
@@ -105,42 +92,15 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(182, 179, 179, 0.01);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.4px);
   -webkit-backdrop-filter: blur(6.4px);
-  border: 1px solid rgba(182, 179, 179, 0.45);
+  border: 1px solid rgba(253, 253, 253, 0.24);
   z-index: 0;
-}
 
-.Btn {
-  background: none;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-}
-
-.containerBtn{
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.icon{
-  width: 30px;
-  height: 30px;
 }
 
 @media (max-width: 1000px) {
   .title {
     font-size: 40px;
   }
-
-  .button {
-    font-size: 15px;
-  }
-
- 
 }
-
